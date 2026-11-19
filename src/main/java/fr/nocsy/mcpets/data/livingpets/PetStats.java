@@ -207,10 +207,9 @@ public class PetStats {
     }
 
     /**
-     * Set the pet as dead
+     * Record the pet's death without changing the entity that is already dying.
      */
     public void setDead() {
-        setHealth(0);
         currentHealth = 0;
     }
 
